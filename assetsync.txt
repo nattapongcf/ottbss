@@ -1,0 +1,12 @@
+Asset sync notification web hook API (VIMMI → OTTBSS)
+for receiving notification from VIMMI when content has changed (created, updated, deleted)
+
+Host: OTTBSS
+GET | /notification/<itype>/<ID>/?action=<ACT>
+
+
+Asset sync API (OTTBSS → VIMMI)
+for getting asset information from VIMMI
+
+Host: VIMMI
+GET | /oss/<version>/oss/<itype>/<ID>?<querystring>
